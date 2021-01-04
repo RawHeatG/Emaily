@@ -24,7 +24,7 @@ passport.use(
             callbackURL: 'http://localhost:5000/auth/google/callback'
         },
         (accessToken, refreshToken, profile, done) => {
-            User.findOne({ googleId: profile.id }).then((existingUser) => {
+            User.findOne({ googleId: profile.id }).then(existingUser => {
                 if(existingUser){
                     done(null, existingUser);
                 }

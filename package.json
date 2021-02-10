@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "node": "8.1.1",
+    "node": "14.15.5",
     "npm": "5.0.3"
   },
   "scripts": {
@@ -22,10 +22,10 @@
     "concurrently": "^5.3.0",
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.13",
-    "nodemon": "^2.0.6",
+    "mongoose": "^5.11.15",
+    "nodemon": "^2.0.7",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
-    "stripe": "^8.134.0"
+    "stripe": "^8.135.0"
   }
 }
